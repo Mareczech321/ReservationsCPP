@@ -115,7 +115,7 @@ If you'd like to compile the source code yourself, follow these steps:
    - The system will confirm if the reservation was successful or display an error message if the room is already booked, the time range is invalid, or the date is not in the future.
    
 2. **Show Reservations**:
-   - Displays all reservations sorted by date.
+   - Displays all reservations.
    
 3. **Cancel Reservation**:
    - The system shows all existing reservation IDs.
