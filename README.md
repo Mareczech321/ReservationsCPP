@@ -87,7 +87,7 @@ If you'd like to compile the source code yourself, follow these steps:
    
       - Launch Visual Studio 2022.
         
-      ###Import the Project:
+      ### Import the Project:
    
       - Click on Open a project or solution.
       - Navigate to the folder where you downloaded the repository.
