@@ -28,11 +28,7 @@ The system ensures that reservations are validated and conflict-free.
    - Users can cancel a reservation by entering its reservation ID.
    - Before prompting for an ID, the system displays all available reservation IDs along with their details for easy reference.
 
-4. **Error Handling**:
-   - Ensures input is valid (e.g., correct date and time formats, valid reservation IDs).
-   - Provides user-friendly error messages for invalid operations, such as entering invalid dates or times.
-
-5. **Exit**:
+4. **Exit**:
    - Allows users to exit the application safely.
 
 ---
@@ -56,17 +52,57 @@ The system ensures that reservations are validated and conflict-free.
      Reservation - from py.exe
      ```
 
-2. **Option 2: Compile and Run the Source Code**
-   - If you'd like to compile the source code yourself, follow these steps:
-     - Open a terminal or command prompt and navigate to the project directory.
-     - Compile the C++ code using a C++ compiler:
-       ```bash
-       g++ main.cpp -o reservations
-       ```
-     - Run the compiled application:
-       ```bash
-       ./reservations
-       ```
+2. **Option 2: Compile and Run the Source Code
+If you'd like to compile the source code yourself, follow these steps:
+
+**Option 2A: Compile and Run on Linux/macOS
+
+   -Open a terminal and navigate to the project directory.
+   -Compile the C++ code using the g++ compiler:
+   ```bash
+   g++ main.cpp user.cpp -o room_reservation_system
+   ```
+   Run the compiled application:
+   ```bash
+   ./room_reservation_system
+   ```
+
+**Option 2B: Compile and Run on Windows
+
+   -Open Developer Command Prompt for Visual Studio (available after you install Visual Studio).
+   -Navigate to the project folder.
+   -Compile the code using the cl compiler:
+   ```bash
+   cl main.cpp user.cpp
+   ```
+This will generate the room_reservation_system.exe file in your project folder.
+
+**Option 3: Import the Project into Visual Studio 2022
+If you prefer to work in Visual Studio 2022, you can import the project and build it within the IDE.
+
+   -Download the Project:
+
+   -Clone or download the repository from GitHub.
+   -Open Visual ###Studio 2022:
+
+   -Launch Visual Studio 2022.
+###Import the Project:
+
+   -Click on Open a project or solution.
+   -Navigate to the folder where you downloaded the repository.
+   -Select the main.cpp or any of the source files you want to import.
+   -Create a New Project (Optional):
+
+   -Alternatively, you can create a new project in Visual Studio:
+   -Choose File > New > Project.
+   -Select the Console App template under C++.
+   -Name your project and set its location.
+   -Add the existing main.cpp and user.cpp files to your new project by right-clicking Source Files in Solution Explorer, selecting Add > Existing Item, and choosing the .cpp files.
+   -Build and Run the Project:
+
+   After importing or creating a project, click Build > Build Solution to compile the code.
+   Once the build is successful, click Debug > Start Without Debugging (or press Ctrl + F5) to run the project.
+
 
 ---
 
