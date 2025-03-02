@@ -3,7 +3,7 @@
 ## Overview
 Basically just manual import from the python version!
 
-The Room Reservation System is a C++-based application that allows users to:
+The Room Reservation System is a C++ based application that allows users to:
 - Add room reservations for specific dates and time slots.
 - View all existing reservations.
 - Cancel a reservation by providing its ID.
