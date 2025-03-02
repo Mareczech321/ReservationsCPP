@@ -1,6 +1,8 @@
 # Room Reservation System
 
 ## Overview
+Basically just manual import from the python version!
+
 The Room Reservation System is a C++-based application that allows users to:
 - Add room reservations for specific dates and time slots.
 - View all existing reservations.
@@ -43,15 +45,15 @@ The system ensures that reservations are validated and conflict-free.
 ### Files
 1. `main.cpp`: The main script containing the application logic.
 2. `user.cpp`: A simple module to represent the user making a reservation.
-3. `reservations.exe`: The precompiled executable file for Windows (if you prefer not to compile the code yourself).
+3. `Reservation - from py.exe`: The precompiled executable file for Windows (if you prefer not to compile the code yourself).
 
 ### Steps
 1. **Option 1: Run the Executable (.exe) File (Recommended for Windows Users)**
-   - Download the `reservations.exe` file from the repository.
+   - Download the `Reservation - from py.exe` file from the repository.
    - Open a terminal (Command Prompt or PowerShell) and navigate to the directory where the `.exe` file is located.
    - Run the executable by typing:
      ```bash
-     reservations.exe
+     Reservation - from py.exe
      ```
 
 2. **Option 2: Compile and Run the Source Code**
