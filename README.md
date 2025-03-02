@@ -52,10 +52,10 @@ The system ensures that reservations are validated and conflict-free.
      Reservation - from py.exe
      ```
 
-2. **Option 2: Compile and Run the Source Code
+2. **Option 2: Compile and Run the Source Code**
 If you'd like to compile the source code yourself, follow these steps:
 
-**Option 2A: Compile and Run on Linux/macOS
+**Option 2A: Compile and Run on Linux/macOS**
 
    -Open a terminal and navigate to the project directory.
    -Compile the C++ code using the g++ compiler:
@@ -67,7 +67,7 @@ If you'd like to compile the source code yourself, follow these steps:
    ./room_reservation_system
    ```
 
-**Option 2B: Compile and Run on Windows
+**Option 2B: Compile and Run on Windows**
 
    -Open Developer Command Prompt for Visual Studio (available after you install Visual Studio).
    -Navigate to the project folder.
@@ -77,7 +77,7 @@ If you'd like to compile the source code yourself, follow these steps:
    ```
 This will generate the room_reservation_system.exe file in your project folder.
 
-**Option 3: Import the Project into Visual Studio 2022
+**Option 3: Import the Project into Visual Studio 2022**
 If you prefer to work in Visual Studio 2022, you can import the project and build it within the IDE.
 
    -Download the Project:
