@@ -44,9 +44,10 @@ void menu();
 
 int main() {
 
-	while (while_true) {
+	do
+	{
 		menu();
-	}
+	} while (user_input != 4);
 
 	return 0;
 }
