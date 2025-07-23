@@ -7,7 +7,7 @@
 
 using namespace std;
 
-struct Reservation { //similiar to python's dictionary
+struct Reservation { //similar to python's dictionary
 	string user;
 	string room_name;
 	string date;
