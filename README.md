@@ -130,3 +130,7 @@ If you'd like to compile the source code yourself, follow these steps:
 - Reservations are stored in memory during the runtime of the program.
 - The reservation IDs are randomly generated, ensuring each reservation has a unique identifier.
 - The system ensures that room bookings do not overlap in terms of time and date.
+
+---
+
+*README.md by chatGPT
